@@ -1,0 +1,147 @@
+body{
+     background: whitesmoke;
+}
+.navbar{
+    display: flex;
+   
+    position: relative;
+
+}
+.navbar .content{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: black;
+    text-decoration: none;
+    padding :30 px 0;
+}
+
+.navbar .content h1{
+    color: aliceblue;
+    text-transform: capitalize;
+    align-items: center;
+    margin-bottom: 30px;
+    
+
+}
+.navbar .content ul li{
+    padding: 15px;
+    
+}
+
+.navbar .content ul li a{
+   
+    color: aliceblue;
+    display: block;
+    
+}
+.main{
+    width: 100%;
+    margin-left: 200px;
+
+}
+.main h2{
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: brown;
+    padding: 50px;
+    
+} 
+.main p{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+
+    color: black;
+}
+
+.button{
+    
+    font-weight: 600;
+    text-decoration: none;
+    
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+.background{
+    color: #080710;
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+form{
+    height: 520px;
+    width: 400px;
+    background-color:white;
+    position: absolute;
+   
+    
+    border-radius: 10px;
+    
+    
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: grey;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
